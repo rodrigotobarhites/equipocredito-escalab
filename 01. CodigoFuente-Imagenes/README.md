@@ -1,11 +1,12 @@
-# equipocredito-escalab
 
 
-Curso: Docker y Kubernetes
 
-Examen Final
+# Curso: Docker y Kubernetes
 
-Imágenes K8s/Docker
+## Examen Final
+
+
+Repositorio Tags:
 https://hub.docker.com/repository/docker/rodrigotobarhites/equipocredito-escalab/tags?page=1&ordering=last_updated
 
 

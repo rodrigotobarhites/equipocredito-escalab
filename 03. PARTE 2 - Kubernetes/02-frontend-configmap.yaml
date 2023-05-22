@@ -1,0 +1,65 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: equipocredito
+data:
+  BACKEND_URL: http://backend.equipocredito.svc.cluster.local:8080/obtenerIntegrantes
+  template.html: |
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trabajo Final - Curso Docker y K8s (Escalab)</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body {
+                background: linear-gradient(to right, #065ca3, #0378a6, #0096a9);
+            }
+            .shadow-text {
+                color: #FFFFFF;
+                text-shadow: 2px 2px 4px #000000;
+            }
+            h1 {
+                font-size: 6.2vw;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            @media (orientation: landscape) {
+                h1 {
+                    font-size: 4vw;
+                }
+                .container {
+                    max-width: 90%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center py-5">
+                <div class="col-12 text-center">
+                    <img src="https://i.ibb.co/grJRFfD/Hites.png" class="img-fluid">
+                    <h1 class="mt-4 shadow-text">Equipo Crédito</h1>
+                </div>
+            </div>
+            {{range .}}
+            <div class="row justify-content-center py-3">
+                <div class="col-md-6">
+                    <div class="card mb-4">
+                        <img src="{{.FotoURL}}" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">{{.Nombre}}</h5>
+                            <p class="card-text"><strong>Cargo:</strong> {{.Cargo}}</p>
+                            <p class="card-text"><strong>Correo:</strong> {{.Correo}}</p>
+                            <p class="card-text">{{.Descripcion}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{end}}
+        </div>
+    </body>
+    </html>

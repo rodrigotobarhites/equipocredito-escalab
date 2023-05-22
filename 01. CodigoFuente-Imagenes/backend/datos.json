@@ -1,0 +1,30 @@
+[
+    {
+        "foto_url": "https://i.ibb.co/xgf1HZ8/1684462502508.jpg",
+        "nombre": "Jaime Carcasson",
+        "cargo": "Lider de Fabrica AS400",
+        "correo": "jaime.carcasson@hites.cl",
+        "descripcion": "Experto en sistemas logísticos y de reposición Hites. Especialista en Analisis y desarrollo de aplicaciones en diversos lenguajes de programación y bases de datos relacionales (SQL Server, Oracle, DB2)"
+    },
+    {
+        "foto_url": "https://i.ibb.co/25BPMD9/1684462367140.jpg",
+        "nombre": "Claudia Contador",
+        "cargo": "Arquitecto As400",
+        "correo": "claudia.contador@hites.cl",
+        "descripcion": "Función definir la compatibilidad e integración de las distintas plataformas tecnológicas , liderar las estrategias, diseño e implantación de soluciones técnicas"
+    },
+    {
+        "foto_url": "https://i.ibb.co/Sx0ChW5/rodrigot.png",
+        "nombre": "Rodrigo Tobar",
+        "cargo": "Subgerente de Proyectos TI - Crédito",
+        "correo": "luis.tobar@hites.cl",
+        "descripcion": "Lider Equipo AS400. Experiencia en banca, retail y servicios financieros. Especialista en Arquitectura de Soluciones Cloud y  Gestión Estratégica. Dominio técnico en Transformación Digital, Inteligencia Artificial, Cyberseguridad, Blockchain Empresarial, Data Science y Automatización."
+    },
+    {
+        "foto_url": "https://i.ibb.co/WgkLKXJ/sergiocha.png",
+        "nombre": "Sergio Chavez",
+        "cargo": "Arquitecto T.I",
+        "correo": "sergio.chavez@hites.cl",
+        "descripcion": "Más de 25 años realizando labores como desarrollador de aplicaciones , jefe de proyecto , jefe de ingeniería de sistema y actualmente como Arquitecto T.I en Hites , especializado en plataforma IBM i certificado en arquitectura power IBM y diplomado en ingeniería de software"
+    }
+]

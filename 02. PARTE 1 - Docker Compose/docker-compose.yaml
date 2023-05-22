@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  web:
+    image: rodrigotobarhites/equipocredito-escalab:dcompose
+    ports:
+      - "80:8080"
+    networks:
+      - webnet
+    depends_on:
+      - db
+    restart: always
+    environment:
+      - DB_HOST=db
+      - DB_USER=postgres
+      - DB_PASSWORD=securepassword
+  db:
+    image: rodrigotobarhites/equipocredito-escalab:postgres13
+    networks:
+      - webnet
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=securepassword
+    volumes:
+      - db_data:/var/lib/postgresql/data
+volumes:
+  db_data:
+networks:
+  webnet:
+    driver: bridge

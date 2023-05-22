@@ -1,0 +1,30 @@
+[
+    {
+        "foto_url": "https://ejemplo.com/fotos/persona1.jpg",
+        "nombre": "Juan Perez",
+        "cargo": "Desarrollador de Software",
+        "correo": "juanperez@ejemplo.com",
+        "descripcion": "Juan es un desarrollador de software con 5 años de experiencia en la industria."
+    },
+    {
+        "foto_url": "https://ejemplo.com/fotos/persona2.jpg",
+        "nombre": "Maria Rodriguez",
+        "cargo": "Diseñadora de Interfaz de Usuario",
+        "correo": "mariarodriguez@ejemplo.com",
+        "descripcion": "Maria es una diseñadora de interfaces de usuario con 3 años de experiencia en la industria."
+    },
+    {
+        "foto_url": "https://ejemplo.com/fotos/persona3.jpg",
+        "nombre": "Carlos Sanchez",
+        "cargo": "Analista de Sistemas",
+        "correo": "carlossanchez@ejemplo.com",
+        "descripcion": "Carlos es un analista de sistemas con 7 años de experiencia en la industria."
+    },
+    {
+        "foto_url": "https://ejemplo.com/fotos/persona4.jpg",
+        "nombre": "Luisa Ramirez",
+        "cargo": "Ingeniera de Software",
+        "correo": "luisaramirez@ejemplo.com",
+        "descripcion": "Luisa es una ingeniera de software con 4 años de experiencia en la industria."
+    }
+]
