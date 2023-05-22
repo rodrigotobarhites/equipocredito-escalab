@@ -10,7 +10,7 @@
 El archivo `docker-compose.yaml` se encuentra disponible en un repositorio git público. Para clonar el repositorio y obtener el archivo, ejecuta el siguiente comando:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/rodrigotobarhites/equipocredito-escalab.git
 ```
 
 
@@ -20,7 +20,7 @@ git clone <URL_DEL_REPOSITORIO>
 Navega hasta el directorio del repositorio que acabas de clonar:
 
 ```bash
-cd <NOMBRE_DEL_REPOSITORIO>
+cd  equipocredito-escalab/02.\ PARTE\ 1\ -\ Docker\ Compose/
 ```
 
 
@@ -62,7 +62,7 @@ Esto eliminará los volúmenes definidos en tu archivo docker-compose.yaml.
 ## Servicios
 Este docker-compose contiene dos servicios:
 
-web: este es tu servicio de aplicación que se expone en el puerto 80. Se conecta a la base de datos mediante la red webnet.
+web: este es tu servicio de aplicación que se expone en el puerto 80 (localhost). Se conecta a la base de datos mediante la red webnet.
 db: este es tu servicio de base de datos que utiliza una imagen Postgres y almacena los datos en un volumen Docker llamado db_data.
 Ambos servicios se reinician automáticamente si se detienen inesperadamente.
 

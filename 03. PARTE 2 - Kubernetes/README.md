@@ -20,8 +20,8 @@ kubectl version
 Primero, clona el repositorio de git que contiene los archivos yaml. Reemplaza <url-del-repositorio> con la URL del repositorio:
 
 ```shell
-git clone <url-del-repositorio>
-cd <nombre-del-repositorio>
+git clone https://github.com/rodrigotobarhites/equipocredito-escalab.git
+cd equipocredito-escalab/03.\ PARTE\ 2\ -\ Kubernetes/
 ```
 
 Una vez que hayas clonado el repositorio y estés en el directorio correcto, puedes empezar a aplicar los archivos yaml en el orden indicado.

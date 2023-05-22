@@ -1,13 +1,13 @@
-# equipocredito-escalab
+# Curso: Docker y Kubernetes
 
-
-Curso: Docker y Kubernetes
-
-Examen Final
+## Examen Final
 
 Imágenes K8s/Docker
 https://hub.docker.com/repository/docker/rodrigotobarhites/equipocredito-escalab/tags?page=1&ordering=last_updated
 
+
+Demostración Aplicación K8s (Responsivo)
+https://frontend-fzmrmv6xsa-tl.a.run.app/
 
 Integrantes (Equipo Crédito - Hites)
 - Claudia Contador 
