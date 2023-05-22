@@ -38,6 +38,8 @@ kubectl apply -f 06-backend-deployment.yaml
 kubectl apply -f 07-frontend-service.yaml
 kubectl apply -f 08-backend-service.yaml
 kubectl apply -f 09-loadbalancer.yaml
+kubectl apply -f 10-frontend-hpa.yaml
+kubectl apply -f 11-backend-hpa.yaml
 ```
 
 Estos comandos crearán los componentes necesarios para la aplicación en tu cluster de Kubernetes.
@@ -60,5 +62,5 @@ kubectl port-forward -n equipocredito svc/frontend 8080:8080
 Estos comandos mostrarán una lista de todos los servicios y deployments en tu cluster. Deberías ver los servicios y deployments que acabas de crear listados aquí.
 
 Adjuntamos un video con la ejecución del proyecto:
-http://youtube.com/...
+https://youtu.be/SWW-_ABuCu0
 

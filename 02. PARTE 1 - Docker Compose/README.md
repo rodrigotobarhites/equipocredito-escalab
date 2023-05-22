@@ -66,8 +66,19 @@ web: este es tu servicio de aplicación que se expone en el puerto 80 (localhost
 db: este es tu servicio de base de datos que utiliza una imagen Postgres y almacena los datos en un volumen Docker llamado db_data.
 Ambos servicios se reinician automáticamente si se detienen inesperadamente.
 
+## Version compatible
+
+Si por alguna razón no es compatible con la version de Docker Compose, se debe descargar e instalar lo siguiente.
+
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
+```
+
+Esto debería imprimir algo como: docker-compose version 1.29.2, build 5becea4c.
 
 
 Adjuntamos un video con la ejecución del proyecto:
-http://youtube.com/...
+https://youtu.be/10JKsie5BDk
 
